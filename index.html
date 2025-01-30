@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F1 Driver Gallery</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 Driver Gallery</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-F1.png" alt="F1 Logo" class="logo">
-        </div>
-        <div class="nav-center">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Drivers</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Schedule</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <img src="https://cdn-3.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg" alt="Team 1" class="team-logo">
-            <img src="https://w7.pngwing.com/pngs/733/606/png-transparent-scuderia-ferrari-laferrari-car-formula-1-ferrari-logo-signage-ferrari-thumbnail.png" alt="Team 2" class="team-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Alpine_logo.png" alt="Team 3" class="team-logo">
-        </div>
-    </nav>
-    <main>
-        <div class="grid-background"></div>
+  <nav>
+    <div class="nav-left">
+      <img src="https://1000marcas.net/wp-content/uploads/2020/01/logo-F1.png" alt="F1 Logo" class="logo">
+    </div>
+    <div class="nav-center">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Drivers</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Schedule</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <img src="https://cdn-3.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg" alt="Team 1" class="team-logo">
+      <img src="https://w7.pngwing.com/pngs/733/606/png-transparent-scuderia-ferrari-laferrari-car-formula-1-ferrari-logo-signage-ferrari-thumbnail.png" alt="Team 2" class="team-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Alpine_logo.png" alt="Team 3" class="team-logo">
+    </div>
+  </nav>
+
+  <main>
+    <h1>Galería de Pilotos F1</h1>
+    <div id="pilots-container" class="grid-container"></div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h2 id="pilot-name"></h2>
+        <p><strong>Equipo:</strong> <span id="pilot-team"></span></p>
+        <p><strong>Rol:</strong> <span id="pilot-role"></span></p>
+        <button id="close-modal" class="close-btn">Cerrar</button>
+      </div>
+    </div>
+    <div class="grid-background"></div>
         <div class="neon-lights"></div>
         <div class="cars">
-            <img src="./src/openart-image_SSE2-2cC_1738260813285_raw.png" alt="F1 Car" class="left-car">
-            <img src="./src/openart-image_Nq99nofJ_1738260813614_raw.png" alt="F1 Car" class="right-car">
+            <img src="./src/F1 mercedes.png" alt="F1 Car" class="left-car">
+            <img src="./src/F1.png" alt="F1 Car" class="right-car">
         </div>
-    </main>
+  </main>
+
+  <script type="module" src="app.js"></script>
 </body>
 </html>
