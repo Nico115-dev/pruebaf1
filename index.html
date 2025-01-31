@@ -10,20 +10,21 @@
   <main>
     <h1>Galería de Pilotos <img src="https://logos-world.net/wp-content/uploads/2023/12/F1-Logo.png" alt="f1"></h1>
     <div id="pilots-container" class="grid-container"></div>
-
-    <!-- Modal -->
-    <div id="modal" class="modal">
-      <div class="modal-content">
-        <!-- Aquí se mostrará el logo del equipo -->
-        <img id="team-logo" alt="Logo del equipo" class="team-logo">
-        <h2 id="pilot-name"></h2>
-        <p><strong>Equipo:</strong> <span id="pilot-team"></span></p>
-        <p><strong>Rol:</strong> <span id="pilot-role"></span></p>
-        <button id="close-modal" class="close-btn">Cerrar</button>
-      </div>
-    </div>
   </main>
-
+  
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <img id="team-logo" alt="Logo del equipo" class="team-logo">
+      <h2 id="pilot-name"></h2>
+      <p><strong>Equipo:</strong> <span id="pilot-team"></span></p>
+      <p><strong>Rol:</strong> <span id="pilot-role"></span></p>
+      <p><strong>Fecha de Nacimiento:</strong> <span id="pilot-birthdate"></span></p>
+      <p><strong>Nacionalidad:</strong> <span id="pilot-nationality"></span></p>
+      <button id="close-modal" class="close-btn">Cerrar</button>
+    </div>
+  </div>
+  
   <script type="module" src="app.js"></script>
 </body>
 </html>

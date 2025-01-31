@@ -45,11 +45,11 @@ main {
 /* Tarjetas de pilotos */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Mejor distribución */
-    gap: 30px; /* Ajustamos el espacio entre las tarjetas */
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 30px; 
+    padding: 40px 20px;
     max-width: 1200px;
-    margin-top: 80px; /* Para que no choque con la barra de navegación */
+    margin-top: 100px auto; 
 }
 
 .card {
