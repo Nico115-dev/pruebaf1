@@ -54,7 +54,7 @@ main {
 
 .card {
     background-color: #1a1a2e;
-    padding: 25px; /* Aumentamos el padding */
+    padding: 25px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -64,10 +64,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     position: relative;
-    overflow: hidden; /* Para que las sombras no se desborden */
+    margin-bottom: 40px; /* Aumenta espacio entre filas */
 }
+
 
 .card:hover {
     transform: scale(1.10);
